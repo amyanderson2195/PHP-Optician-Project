@@ -1,0 +1,29 @@
+/*
+    SPECIFIC CSS FOR COUNTER SALES
+    STUDENT ID:         C00276123
+    STUDENT NAME:       Amy Anderson
+    DATE WRITTEN:       03/2023
+*/
+
+.button{ /* dark blue buttons with white text and rounded corners */
+    background: #5A57FF;
+    color: white;
+    margin: 5px 0;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{ /* light blue background, dark blue text */
+    background: #C2C0FF;
+    color: #5A57FF;
+}
+
+td{
+    text-align: center;
+}
+
+.totalprice{
+    border-top: dashed 1px #5A57FF;
+}

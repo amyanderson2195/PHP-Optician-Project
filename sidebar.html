@@ -1,0 +1,38 @@
+<!-- 
+    NAME OF SCREEN:     Sidebar
+    PURPOSE OF SCREEN:  Sidebar that appears on every page of the website
+    STUDENT ID:         C00276123, C00275764, C00290922, C00273530
+    STUDENT NAME:       Amy Anderson, Mirella Glowinska, Douglas Kadzutu, Dawid Pionk
+    DATE WRITTEN:       01/2023
+ -->
+ <div id="sidebar">
+    <div id="logo">
+        <a href="/index.php"><img src="/logo.png" alt="Optician"></a>
+    </div>
+    <a href="/index.php" class="sidebar_button">
+        <!-- Each i element in the sidebar uses fontawesome classes. These classes add icons depending on class name, and are exclusively visual, providing no functionality. -->
+        <div><i class="fa-solid fa-house"></i> Dashboard</div>
+    </a>
+    <a href="/countersales/countersales.html.php" class="sidebar_button">
+        <div><i class="fa-solid fa-cash-register"></i> Counter Sales</div>
+    </a>
+    <a href="/stockitems/add.html.php" class="sidebar_button">
+        <div><i class="fa-solid fa-plus"></i> Add Stock Item</div>
+    </a>
+    <a href="/stockitems/delete.html.php" class="sidebar_button">
+        <div><i class="fa-solid fa-minus"></i> Delete Stock Item</div>
+    </a>
+    <a href="/stockitems/amendview.html.php" class="sidebar_button">
+        <div><i class="fa-solid fa-pen-to-square"></i> Amend/View Stock Item</div>
+    </a>
+    <a href="" class="sidebar_button" id="quit" onclick="unassignedScreen()">
+        <div><i class="fa-solid fa-right-from-bracket"></i> Quit</div>
+    </a>
+ </div>
+
+ <script>
+    // Called when links are clicked on for screens that were not assigned.
+    function unassignedScreen(){
+        alert("This screen was not assigned to anyone.");
+    }
+ </script>
