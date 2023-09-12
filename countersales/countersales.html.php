@@ -117,7 +117,7 @@
                     <h1>Counter Sales</h1>
                 </div>
                 <!-- only submit form if user confirms sale -->
-                <form action="countersales.php" method="post" onsubmit="confirmsale()">
+                <form action="countersales.php" method="post" onsubmit="return confirmsale()">
                     <div>
                         <label for="stocklistbox">Select Items</label><br>
                         <?php include "stocklistbox.php" ?>
